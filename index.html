@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Mini-Tienda Online</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>
+    <h1>Bienvenid@ a mi Mini-Tienda Online!</h1>
+    <div id="productos">
+        <h2>Productos Disponibles</h2>
+    </div>
+
+    <div id="carrito" style="display: none;">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="total">0.00</span></p>
+        <button id="realizar-compra-btn">Realizar Compra</button>
+    </div>
+
+    <div id="confirmacion-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Producto Agregado al Carrito</h2>
+        </div>
+    </div>
+
+    <div id="mensaje-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span id="cerrar-mensaje-btn" class="close">&times;</span>
+            <h2 id="mensaje-texto">Mensaje</h2>
+        </div>
+    </div>
+
+    <div id="registro-usuario" style="display: none;">
+        <h2>Registro de Usuario</h2>
+        <label for="nombre-usuario">Nombre de Usuario:</label>
+        <input type="text" id="nombre-usuario" required><br>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" required><br>
+        <button id="registrar-usuario-btn">Registrar</button>
+    </div>
+    
+
+    <script src="/JS/main.js"></script>
+</body>
+</html>

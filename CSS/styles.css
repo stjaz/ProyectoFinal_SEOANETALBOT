@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&display=swap');
+
+*{
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-family: "Rubik Scribble", system-ui;
+    font-size: 60px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    padding: 7px;
+    margin: 5px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+#cerrar-mensaje-btn{
+    cursor: pointer;
+}
